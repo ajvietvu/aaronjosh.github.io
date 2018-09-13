@@ -1,129 +1,178 @@
 <!DOCTYPE html>
 <html>
-<title>AJ's Art Portfolio</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-dog,.fa-coffee {font-size:200px}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
-<body>
+<body class="w3-light-grey">
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-pink" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="https://ajvietvu.github.io/aaronjosh.github.io/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="https://ajvietvu.github.io/artstate.github.io/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Artist Statement</a>
-    <a href="https://ajvietvu.github.io/artportfoliosimple.github.io/" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">My Art</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">Artist Statement</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">My Art</a>
-  </div>
-</div>
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
 
 <!-- Header -->
-<header class="w3-container w3-yellow w3-center" style="padding:100px 10px">
-  <h1 class="w3-margin w3-jumbo">Aaron-Josh Vietvu</h1>
-  <p class="w3-xlarge">Art Portfolio</p>
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>MY PORTFOLIO</b></h1>
+  <p>Welcome to the portfolio of <span class="w3-tag">AJ Vietvu</span></p>
 </header>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Aaron-Josh Vietvu's Art</h1>
-<div class="w3-row"><br>
+<!-- Grid -->
+<div class="w3-row">
 
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<div class="w3-quarter">
-  <a href="https://ajvietvu.github.io/drawings.github.io/">
-  <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/30708629_1893887607349780_8785507280738058240_n.jpg?_nc_cat=0&oh=68bd37ba03cade87cea9aafa8ad60f83&oe=5B6A9F5A" alt="Drawing" style="width:80%" class="w3-circle w3-hover-opacity">
-  <p>Drawings</p>
-  </a>
-</div>
-
-<div class="w3-quarter">
-  <a href="https://ajvietvu.github.io/paintings.github.io/">
-  <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30726665_1893888204016387_112296485504155648_n.jpg?_nc_cat=0&oh=0da6b2d2164e03723f8e9eb6743292c2&oe=5B5D2DF8" alt="Painting" style="width:80%" class="w3-circle w3-hover-opacity">
-  <p>Paintings</p>
-  </a>
-</div>
-
-<div class="w3-quarter">
-  <a href="https://ajvietvu.github.io/photography.github.io/">                    
-  <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/31189608_1897940086944532_6109305797026512896_n.jpg?_nc_cat=0&oh=ec2370c665cd11c7bf445cfdf7429022&oe=5B9CC2FC" alt="Photography" style="width:80%" class="w3-circle w3-hover-opacity">
-  <p>Photography</p>
-  </a>
-</div>
-
-<div class="w3-quarter">
-  <a href="https://ajvietvu.github.io/digital.github.io/">
-  <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/31138112_1899245460147328_8349694999297785856_o.jpg?_nc_cat=0&oh=b4e9aec4a3d3e3a7883198b2b768f5c2&oe=5B99B8BC" alt="Digital" style="width:80%" class="w3-circle w3-hover-opacity">
-  <p>Digital Art</p>
-  </a>
-
-</div>
-</div>
-</div>
-
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Digital Work</b></h3>
+      <h5>,Flyers, Logos, etc. , <span class="w3-opacity"> </span></h5>
     </div>
 
-    <div class="w3-third w3-center">
-      <i class="w3-padding-35 w3-text-blue"></i>
+    <div class="w3-container">
+      <p>Art has always been something that I've been into.  I started to get into digital art more in 
+        high school have carried it on to my college career.  It has also become one my favorite things 
+        to create for other people.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>DIGITAL ARTWORK »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+  <hr>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-50 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="w3-padding-35 w3-text-blue w3-margin-right"></i>
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Photography</b></h3>
+      <h5>Portraits, Landscapes, Memories , <span class="w3-opacity"> </span></h5>
     </div>
 
-    <div class="w3-twothird">
-      <h1>About Me</h1>
-      <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30729051_1893920490679825_3866217877824602112_n.jpg?_nc_cat=0&oh=f21d75e0d41fef4570cd50719a82a665&oe=5B626117" style="width: 60%">                  
-      <h5 class="w3-padding-32">Hi friends!  My name is Aaron-Josh Vietvu, but I also go by AJ for short.  I'm a digital media art major from San Jose State University and I love and appreciate all kinds of art.  This website will showcase some of my very own pieces.  My interest in art started at a very young age.  When I was in preschool, I was really into drawing.  By the time I was in elementary school, I started drawing anime characters.  In middle school, I started to draw things from my own mind.  By high school, I really just drew anything I wanted.  I even started painting.  I also got into photography and other forms new media art.</h5>
-
-      <p class="w3-text-grey">~</p>
+    <div class="w3-container">
+      <p>I started photography in high school as an elective.  Although that was my first form of professionally 
+        taking pictures and having photoshoots, I didn't really see any growth in my photography skills until my
+      first year of college.  This was the year that I got into photography as a hobby rather than an assignment.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>PHOTOGRAPHY »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
+        </div>
+      </div>
     </div>
   </div>
+  
+  
+   <div class="w3-card-4 w3-margin w3-white">
+    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Videography</b></h3>
+      <h5>Videos , <span class="w3-opacity"> </span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Videography has recently and quickly become one of my passions.  I have just started filming and editing
+      videos during my 3rd year in college.  Through my video classes on campus and media team from the non-profit
+      organization that I am a part of, I have quickly developed many different kinds of filming and editing skills. </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>Videos »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  
+<!-- END BLOG ENTRIES -->
 </div>
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">yee. bruh... art.</h1>
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="/w3images/avatar_g.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>AJ Vietvu</b></h4>
+      <p>My name is Aaron-Josh Vietvu, or just "AJ" for short.  I am a third year at SJSU and a digital media art major.  
+        Art has been one of my passions ever since I was young and I have continued to both add new artistic skills and sharpen older 
+        skills.  I also hold a position in Akbayan SJSU's cabinet as one of three media officers.  As a media officer, I 
+        am in charge of the visuals that are produced.  This includes things like flyers, graphics, photos, videos, etc.</p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Popular Posts</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Lorem</span><br>
+        <span>Sed mattis nunc</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Ipsum</span><br>
+        <span>Praes tinci sed</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Dorum</span><br>
+        <span>Ultricies congue</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mingsum</span><br>
+        <span>Lorem ipsum dipsum</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
+    </p>
+    </div>
+  </div>
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-50 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-    <a href="https://www.facebook.com/aj.vietvu"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    <a href="https://www.instagram.com/ajvietvu/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    <a href="https://twitter.com/ajvietvu"><i class="fa fa-twitter w3-hover-opacity"></i></a>
- </div>
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
 
 </body>
 </html>
